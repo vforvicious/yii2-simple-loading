@@ -45,6 +45,8 @@ Once the extension is installed, simply use it in your code by:
 	// ...
 ```
 
+In javascript call start and stop to control the loading widget 
+
 ```javascript
 	
 	/*
