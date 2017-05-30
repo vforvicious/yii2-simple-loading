@@ -1,11 +1,11 @@
 yii2-simple-loading
 ============
-Simple Loading images for Yii framework 2.0 or later
+Simple Loading widget for Yii framework 2.0 or later
 
 Description
 -----------
 
-**edwinhaq\simpleloading\SimpleLoading** widget is a simple way to control listbox items
+**edwinhaq\simpleloading\SimpleLoading** widget is a simple way to show a loading screen in your views.
 
 Requirements
 ------------
