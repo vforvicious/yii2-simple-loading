@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+/* https://loading.io/ #89ba17 */
+.simple-loading {
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: fixed;
+	z-index: 999999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+	background-color: #ffffff;
+	display: block;
+	text-align: center;
+	padding-top: 0px;
+	color: #666;
+	display: none;
+}
+
+.simple-loading-box {
+	background-image: url(images/box.gif);
+}
+
+.simple-loading-clock {
+	background-image: url(images/clock.gif);
+}
+
+.simple-loading-default {
+	background-image: url(images/default.gif);
+}
+
+.simple-loading-gears {
+	background-image: url(images/gears.gif);
+}
+
+.simple-loading-hourglass {
+	background-image: url(images/hourglass.gif);
+}
+
+.simple-loading-magnify {
+	background-image: url(images/magnify.gif);
+}
+
+.simple-loading-reload {
+	background-image: url(images/reload.gif);
+}
+
+.simple-loading-ring-alt {
+	background-image: url(images/ring-alt.gif);
+}
+
+.simple-loading-ring {
+	background-image: url(images/ring.gif);
+}
+
+.simple-loading-ripple {
+	background-image: url(images/ripple.gif);
+}
+
+.simple-loading-rolling {
+	background-image: url(images/rolling.gif);
+}
