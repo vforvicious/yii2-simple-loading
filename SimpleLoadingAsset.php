@@ -12,7 +12,7 @@ use Yii;
 use yii\web\AssetBundle;
 
 /**
- * Asset bundle for SimpleDualListbox widget.
+ * Asset bundle for SimpleLoading widget.
  *
  * @see https://github.com/edwinhaq/yii2-listbox-dual
  * @author Edwin Artunduaga <edwinhaq@gmail.com>
@@ -35,10 +35,10 @@ class SimpleLoadingAsset extends AssetBundle
 		$this->sourcePath = __DIR__ . '/assets';
 		
 		$this->css = [
-			'css/simple-loading.css' 
+			YII_DEBUG ? 'css/simple-loading.css' : 'css/simple-loading.min.css'
 		];
 		$this->js = [
-			'js/simple-loading.js' 
+			YII_DEBUG ? 'js/simple-loading.js' : 'js/simple-loading.min.js'
 		];
 		parent::init();
 	}
