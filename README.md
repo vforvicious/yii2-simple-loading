@@ -95,3 +95,6 @@ History
 
 + Version 1.0.0 (2017-05-30)
     + Tested on Yii 2.0.6
++ Version 1.0.1 (2017-10-30)
+    + Tested on Yii 2.0.12
+
