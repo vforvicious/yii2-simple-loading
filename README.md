@@ -37,18 +37,18 @@ Usage
 Once the extension is installed, simply use it in your PHP code:
 
 ```php
-	
+
 	// ...
-	use edwinhaq\simpleloading;
+	use edwinhaq\simpleloading\SimpleLoading;
 	// ...
 	SimpleLoading::widget();
 	// ...
 ```
 
-In javascript call start and stop to control the loading widget 
+In javascript call start and stop to control the loading widget
 
 ```javascript
-	
+
 	/*
 	 * start(image type)
 	 * Allows to start the loading image and select the image to show
@@ -57,24 +57,24 @@ In javascript call start and stop to control the loading widget
 	SimpleLoading.start('gears'); 	// Load gears.gif
 	SimpleLoading.start('default'); // Load default.gif
 	SimpleLoading.start(); 			// Load default.gif
-	
+
 	/*
 	 *
 	 * Allows to stop the loading image
 	 */
 	SimpleLoading.stop();
-	
-	
+
+
 	// Example:
-	
+
 	$.ajax(
 		{
 			'type':'POST',
 			'dataType':'json',
 			'url':'index.php?r=controller/action',
 			'beforeSend':function(json)
-			{ 
-				SimpleLoading.start('gears'); 
+			{
+				SimpleLoading.start('gears');
 			},
 			'success':function(json){/* ... */},
 			'error':function(json,status,errorThrown ){/* ... */},
@@ -86,7 +86,7 @@ In javascript call start and stop to control the loading widget
 			'data':jQuery(this).parents("form").serialize()
 		}
 	);
-	
+
 
 ```
 
